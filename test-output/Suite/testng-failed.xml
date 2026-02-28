@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TrainBookingAndStatus(failed)">
+    <classes>
+      <class name="com.TestRunner.CheckTrainStatusTC02">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="startTest"/>
+          <include name="initilaizeBrowser"/>
+          <include name="CheranTrainStatus"/>
+        </methods>
+      </class> <!-- com.TestRunner.CheckTrainStatusTC02 -->
+    </classes>
+  </test> <!-- TrainBookingAndStatus(failed) -->
+</suite> <!-- Failed suite [Suite] -->

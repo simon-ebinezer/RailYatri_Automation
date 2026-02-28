@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-26T19:40:42 IST" name="Default suite" finished-at="2026-02-26T19:41:06 IST" duration-ms="23164">
+    <groups>
+    </groups>
+    <test started-at="2026-02-26T19:40:42 IST" name="Default test" finished-at="2026-02-26T19:41:06 IST" duration-ms="23164">
+      <class name="com.TestRunner.CheckTrainStatusTC02">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.TestRunner.CheckTrainStatusTC02@74e52ef6]" started-at="2026-02-26T19:40:42 IST" name="startTest" finished-at="2026-02-26T19:40:43 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="initilaizeBrowser()[pri:0, instance:com.TestRunner.CheckTrainStatusTC02@74e52ef6]" started-at="2026-02-26T19:40:43 IST" name="initilaizeBrowser" finished-at="2026-02-26T19:40:47 IST" duration-ms="4230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilaizeBrowser -->
+        <test-method signature="CheranTrainStatus()[pri:0, instance:com.TestRunner.CheckTrainStatusTC02@74e52ef6]" started-at="2026-02-26T19:40:47 IST" name="CheranTrainStatus" finished-at="2026-02-26T19:41:05 IST" duration-ms="18003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheranTrainStatus -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TestRunner.CheckTrainStatusTC02@74e52ef6]" started-at="2026-02-26T19:41:05 IST" name="quitBrowser" finished-at="2026-02-26T19:41:06 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TestRunner.CheckTrainStatusTC02 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
