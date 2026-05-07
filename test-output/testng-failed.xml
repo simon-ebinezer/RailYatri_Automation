@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TrainBookingAndStatus(failed)">
     <classes>
+      <class name="com.TestRunner.TicketBookingTC01">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="ticketBooking"/>
+          <include name="initilaizeBrowser"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.TestRunner.TicketBookingTC01 -->
       <class name="com.TestRunner.CheckTrainStatusTC02">
         <methods>
           <include name="quitBrowser"/>
@@ -12,5 +20,5 @@
         </methods>
       </class> <!-- com.TestRunner.CheckTrainStatusTC02 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TrainBookingAndStatus(failed) -->
+</suite> <!-- Failed suite [Suite] -->
